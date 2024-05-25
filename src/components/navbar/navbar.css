@@ -1,0 +1,35 @@
+.toggle-card {
+  width: 600px;
+  margin-top: 35px;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.071);
+}
+.top-navbar {
+  padding: 10px 0;
+}
+.toggle-icon a {
+  color: #000000;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.menu li {
+  margin: 10px 20px;
+}
+.menu li a {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-weight: 600;
+}
+.menu li a span {
+  padding-left: 6px;
+}
+
+.calling span {
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.calling a {
+  color: #000000;
+  font-weight: 600;
+}

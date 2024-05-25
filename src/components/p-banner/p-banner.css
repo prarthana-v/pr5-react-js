@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif; */
+
+.product-banner {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.product-banner h1 {
+  color: #2b2b2d;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+}
+.product-banner h2 {
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #7a7a7a;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.p-banner ul li:first-child button {
+  color: #64b496 !important;
+}
+.p-banner ul li {
+  padding: 12px 15px;
+  background-color: #f7f7f8;
+  font-family: "Poppins, sans-serif";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.667;
+  color: #2b2b2d;
+  border: 0;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.p-banner ul li button {
+  border: 0;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+.banner-img {
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.banner-img img {
+  height: 100%;
+}
+.product-banner {
+  position: relative;
+}
+.shopnow-btn {
+  font-family: "Poppins", sans-serif;
+  background-color: #64b496;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  padding: 8px 22px;
+  letter-spacing: 0.6px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+}
+.shopnow-btn:hover {
+  background-color: #000;
+}
+.banner-content {
+  position: absolute;
+  top: 100px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.banner-content h4 {
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.banner-content h5 {
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 38px;
+  color: #f7e8aa;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.banner-content span {
+  font-family: "Manrope, sans-serif";
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #fff;
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.banner-ctn {
+  /* font-family: "Manrope", sans-serif !important;
+  font-family: "Poppins", sans-serif; */
+  padding-left: 60px;
+  z-index: 9999;
+}
+.banner-ctn h5 span {
+  margin-right: 10px;
+  display: inline-block;
+  color: #64b496;
+  font-weight: 700;
+  border-bottom: 3px solid #64b496;
+  font-family: "Poppins", sans-serif;
+}
+.banner-ctn h5 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+.banner-ctn h1 {
+  margin-bottom: 25px;
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 800;
+  line-height: 70px;
+  color: #000;
+  /* position: relative; */
+}
+.banner-ctn p {
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: #7a7a7a;
+  letter-spacing: 0.6px;
+  word-spacing: 1px;
+  line-height: 1.75;
+}
+.banner-ctn .shopnow-btn {
+  font-family: "Manrope", sans-serif;
+  background-color: #64b496;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  padding: 8px 22px;
+  letter-spacing: 0.6px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+}
+.banner-ctn .shopnow-btn:hover {
+  background-color: #000;
+}
+.slider {
+  position: relative;
+}
+.slider::before {
+  position: absolute;
+  background-image: url(../slider/img/2.png);
+  top: 10px;
+  left: 0;
+}
+.ban-ctn {
+  position: absolute;
+  top: 10%;
+}
