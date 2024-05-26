@@ -11,7 +11,7 @@ import { FaRegStar } from "react-icons/fa6";
 const ProductBanner = () => {
 
   const [product, setProduct] = useState(data);
-  console.log(productsCat);
+  // console.log(productsCat);
 
   const filterProducts = (category) => {
     if (category == "View All") {
@@ -68,7 +68,7 @@ const ProductBanner = () => {
               {
                 product.map((item) => {
                   return (
-                    <div className="col-3 py-1 px-2">
+                    <div className="col-3 py-1 px-2" key={item.id}>
                       <div className="product-card">
                         <div className="product-image">
                           <div className="image-prod">

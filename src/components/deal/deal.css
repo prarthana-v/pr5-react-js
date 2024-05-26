@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif; */
+
+.banner-deal {
+  background-image: url("img/deal/bg-deal.jpg");
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.deal-content {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 600px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.22);
+  border-radius: 5px;
+  box-shadow: -3px 3px 8px 5px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+.deal-content p span:first-child {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #64b496;
+}
+.deal-content p span:last-child {
+  font-family: "Manrope, sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+}
+.deal-content h4 {
+  margin-top: 12px;
+  margin-bottom: 15px;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #2b2b2d;
+}
+.deal-content p:last-child {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-family: "Poppins, sans-serif";
+  color: #7a7a7a;
+  line-height: 1.6;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.wrapper {
+  position: relative;
+  height: 10em;
+}
+
+.countdown-container {
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  transform-style: preserve3d;
+  perspective: 500px;
+  height: 10rem;
+
+  margin: 0 auto;
+}
+.countdown.remove {
+  animation: hide-countdown 1s cubic-bezier(0, 0.9, 0.56, 1.2) forwards;
+  overflow: hidden;
+}
+
+.number,
+.separator {
+  display: block;
+  color: #333;
+  /* height: 10rem; */
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  line-height: 10rem;
+  text-align: center;
+  width: 40px;
+}
+.separator {
+  margin: 0;
+  /* width: 2rem; */
+}
+.number::after {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  bottom: -45px !important;
+  color: #7a7a7a !important;
+}
+.new,
+.old,
+.current {
+  color: #333;
+  position: absolute;
+  border-radius: 1rem;
+  height: 10rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+.new {
+  animation: show-new 0.4s cubic-bezier(0, 0.9, 0.5, 1.2) forwards;
+}
+
+.old {
+  animation: hide-old 2s cubic-bezier(0, 0.9, 0.56, 1.2) forwards;
+}
+
+.countdown section {
+  position: relative;
+}
+
+#js-days:after,
+#js-hours:after,
+#js-minutes:after,
+#js-seconds:after {
+  content: "DAYS";
+  position: absolute;
+  text-align: center;
+  left: -6px;
+  right: -5px;
+  bottom: -80px;
+  font-size: 12px;
+}
+#js-hours:after {
+  content: "HOURS";
+}
+#js-minutes:after {
+  content: "MINUTES";
+}
+#js-seconds:after {
+  content: "SECONDS";
+}
+@keyframes hide-countdown {
+  to {
+    height: 0;
+    overflow: hidden;
+  }
+}
+@keyframes show-new {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-2rem) scale(0.8)
+      rotateX(-20deg);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+@keyframes hide-old {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-5rem) scale(0.5)
+      rotateX(-75deg);
+  }
+}

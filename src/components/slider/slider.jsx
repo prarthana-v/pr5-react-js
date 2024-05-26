@@ -10,7 +10,7 @@ const Slider = () => {
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item slider active">
+          <div class="carousel-item swiper-slider active">
             <img src="img/banner.jpg" class="d-block w-100 " alt="..." style={{ objectFit: 'cover', height: 580 }} />
             <div class="carousel-caption  d-none d-md-block"></div>
             <div className="ban-ctn">
